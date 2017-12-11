@@ -29,7 +29,7 @@ body {
 ==================================================================================================*/
 
 .background-container {
-    position: fixed;
+    position: absolute;
     left: 0;
     right: 0;
     top: 0;
@@ -91,10 +91,16 @@ a:focus {
 ==================================================================================================*/
 
 .content {
-    padding: 40px 0;
+    padding-top: 180px;
     position: relative;
+    height: 100%;
+    width: 100%;
 }
 
+.about {
+    height: 200px;    
+    position: relative;
+}
 
 
 
